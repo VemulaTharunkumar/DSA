@@ -1,0 +1,6 @@
+n=list(map(int,input().split()))
+i=max(n)
+j=min(n)
+print("max :",i)
+print("min :",j)
+print("Range:",i-j)

@@ -1,0 +1,6 @@
+t=()
+li=list(t)
+li=list(map(int,input().split()))
+t1=tuple(li)
+print(t1)
+print("Size:",len(t1))

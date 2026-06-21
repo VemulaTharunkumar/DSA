@@ -1,0 +1,6 @@
+s=set(map(int,input().split()))
+print(s)
+s1=set(map(int,input().split()))
+print(s1)
+print("Union",s.union(s1))
+print("Intersection",s.intersection(s1))
